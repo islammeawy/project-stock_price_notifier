@@ -33,7 +33,7 @@ def send_email():
   stock value !
   """
   contents = """
-  the stock price is low !
+  the stock price percent is low !
   """
   yag = yagmail.SMTP(user=os.getenv('email'), password=os.getenv('password')
   yag.send(to=receiver, subject=subject, contents=contents)
