@@ -28,7 +28,7 @@ def stock_value():
 
 def send_email():
   receiver = "05n0v56byw@spymail.one"
-  sender = 'islamsinga@gmail.com'
+  
   subject = """
   stock value !
   """
